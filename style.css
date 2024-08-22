@@ -1,0 +1,45 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.50)), url("/background.jpg");
+    background-size: cover;
+}
+.card-body{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.img img{
+    width: 285px;
+    height: 150px;
+    border-radius: 2%;
+}
+h1{
+    font-size: 50px;
+    font-family: fantasy;
+}
+.img input{
+    border-radius: 50px;
+    border-color: aqua;
+    
+}
+.img button{
+    border-radius: 50px;
+    border-color: aqua;
+
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 0s, 1s;
+}
