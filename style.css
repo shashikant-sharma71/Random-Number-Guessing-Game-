@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.50)), url("/background.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.50)), url("background.jpg");
     background-size: cover;
 }
 .card-body{
